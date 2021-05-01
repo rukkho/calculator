@@ -1,0 +1,38 @@
+.button{
+    /* padding: 10px; */
+    display:flex;
+    background: lightgrey;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1.4em;
+    height: 50px;
+    outline: 1px solid #ffffff;
+    flex: 1;
+    color:#000000;
+
+}
+
+.button.AC{
+    flex: 2;
+    background:#f34a4a !important;
+    color: #000000!important;
+}
+
+.button.equalToOperator{
+    flex: 2;
+    background: lightblue !important;
+    color: #000000!important;
+}
+
+.button.function{
+    background: #a5a5a5;
+    color: black;
+    font-weight: bold;
+}
+
+.button.operator{
+    background: rgb(247, 173, 103);
+    color: #000000;
+    font-weight: bold;
+}
