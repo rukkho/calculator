@@ -1,13 +1,27 @@
-.input{
-    height: 50px;
+.display{
+    color: white;
+    /* padding-right: 15px; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    background: #000000;
-    outline: 1px solid #ffffff;
-    padding: 10px;
-    font-size: 1.7em;
-    font-weight: 100;
-    color: #ffffff;
-    
+    flex-direction: column;
+    /* padding-bottom: 15px!important; */
+    height: 5rem;
+    padding: 30px;
+}
+.result{
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    flex: 1;
+    /* padding: 10px; */
+}
+.calculate{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 25px;
+}
+.caculate h3{
+    padding-bottom: 15px;
 }

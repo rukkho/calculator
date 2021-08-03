@@ -1,25 +1,38 @@
-.app{
-    display:flex;
+
+body {
+  
+    background: green;
+    
+    font-family: 'Helvetica Neue',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .app{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
-    height: 100vh;
-    background: lightgreen;
-    color:#ffffff;
-}
-
-.container{
-    width:400px;
-    /* background: crimson;    */
-}
-
-.row{
-   
-    display:flex;
-    width:100%;
+  }
+  .cal-wrapper{
+    border-radius: 15px!important;
+  }
+  .display-wrapper{
+    width: 400px;
+    height: 8rem;
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cal-wrapper{
+    width: 400px;
+    background-color: gray;
     
+  }
+  .row{
+    display: flex;
+  }
+ 
+  
 
-}
-.row.AC{
-   background: red ;
-}
+  
